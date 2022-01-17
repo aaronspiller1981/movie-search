@@ -32,6 +32,7 @@ function Form() {
              value={query}
              onChange={(e) => setQuery(e.target.value)}
              autoFocus
+             onFocus={e => e.currentTarget.select()}
              />
             <button type="submit" className="btn" >Search</button>
 
