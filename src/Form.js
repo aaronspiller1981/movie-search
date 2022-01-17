@@ -31,6 +31,7 @@ function Form() {
              placeholder="e.g. Wizard Of Oz"
              value={query}
              onChange={(e) => setQuery(e.target.value)}
+             autoFocus
              />
             <button type="submit" className="btn" >Search</button>
 
